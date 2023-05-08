@@ -13,8 +13,8 @@
     3. Modificar documentos
     4. Eliminar documentos
 # Diseño de la base de datos
-  ## Identificar entidades
-  ## Modelo lógico
+## Identificar entidades
+## Modelo lógico
 # Diseñar schema
 # Crear docker-compose
 # Crear querys
