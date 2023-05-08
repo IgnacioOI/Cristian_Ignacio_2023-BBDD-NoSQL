@@ -5,7 +5,6 @@
     1. Identificar entidades
     2. Modelo lógico
 2. **Diseñar schema**
-    1. Validar schema
 3. **Crear docker-compose**
 4. **Crear querys**
     1. Insertar varios documentos
