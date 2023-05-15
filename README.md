@@ -25,8 +25,9 @@ Las entidades elegidas para una base de datos pelicula son:
 ![[ModeloRelacional.PNG]](Imagenes/ModeloRelacional.PNG)
 
 # Diseñar schema
-```
-yy
-```
+## Casos de uso
+> Las colecciones no necesariamente tendran todos los datos de otro sino que tendra los que mas interese de la otra coleccion.
+## Validación
+
 # Crear docker-compose
 # Crear querys
