@@ -16,7 +16,7 @@
 Las entidades elegidas para una base de datos cine son:  
 **Personas**, que puede ser un **Actor** o **Director**, que **Director** puede dirigir una o varias **Peliculas**, Los **Actores** pueden actuar en una o varias **Peliculas** que puede tener uno o varios **Papeles** y **Pelicula** puede ser rodada en uno o varios **Paises**.  
 ## Modelo lógico
-![ERM](https://github.com/IgnacioOI/Cristian_Ignacio_2023-BBDD-NoSQL/assets/94613709/15557a0c-d903-4eec-ab1a-907312372600)
+![ERM](Imagenes/ERM.PNG)
 
 # Diseñar schema
 ```
