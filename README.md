@@ -26,6 +26,11 @@ Las entidades elegidas para una base de datos pelicula son:
 
 # Diseñar schema
 ## Casos de uso
+- **Actor** tendra una coleccion sola para acceder a sus datos en algun momento.
+- **Director** tendra una coleccion para acceder a sus datos.
+- **Personaje** tendra una coleccion propia con el nombre del **Actor** que lo interpreta.
+- **Productora** sera una coleccion propia por si queremos tener mas informacion sobre el
+- **Pelicula** tendra los nombres de los **Actores**, **Personajes**, **Directores**, **Productoras** y **Paises** ira embebido en **Peliculas**.
 > Las colecciones no necesariamente tendran todos los datos de otro sino que tendra los que mas interese de la otra coleccion.
 ## Validación
 
