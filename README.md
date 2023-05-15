@@ -20,7 +20,7 @@
 Las entidades elegidas para una base de datos pelicula son:    
 **Director** dirige una o varias **Peliculas**, **Actor** actua en una **Pelicula**, **Actor** interpreta uno o varios **Personajes**, **Pelicula** participan uno o varios **Personajes**, **Peliculas** estaran rodadas en uno o varios **Paises** y las **Peliculas** son producidas pro una o varias **Productoras**.
 ## Modelo entidad relación
-
+![[EntidadRelacion.PNG]](Imagenes/EntidadRelacion.PNG)
 ## Modelo relacional
 
 
