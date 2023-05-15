@@ -22,7 +22,7 @@ Las entidades elegidas para una base de datos pelicula son:
 ## Modelo entidad relación
 ![[EntidadRelacion.PNG]](Imagenes/EntidadRelacion.PNG)
 ## Modelo relacional
-
+![[ModeloRelacional.PNG]](Imagenes/ModeloRelacional.PNG)
 
 # Diseñar schema
 ```
