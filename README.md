@@ -8,6 +8,7 @@
 2. **Diseñar schema**
     1. Casos de uso
     2. Validación
+    3. Vincular schema
 4. **Crear docker-compose**
 5. **Crear querys**
     1. Insertar varios documentos
