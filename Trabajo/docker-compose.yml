@@ -1,0 +1,30 @@
+version: "3.8"
+services:
+  mongo:
+    image: mongo:6.0
+    container_name: mongo
+    environment:
+        - MONGO_INITDB_ROOT_USERNAME=root
+        - MONGO_INITDB_ROOT_PASSWORD=password
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./database/db:/data/db
+
+  mongo-express:
+    image: mongo-express
+    container_name: mexpress
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=root
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=password
+      - ME_CONFIG_MONGODB_SERVER=mongo
+      - ME_CONFIG_BASICAUTH_USERNAME=mexpress
+      - ME_CONFIG_BASICAUTH_PASSWORD=mexpress
+    links:
+      - mongo
+    restart: unless-stopped
+    ports:
+      - 8085:8081
+    depends_on:
+      - mongo
