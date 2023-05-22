@@ -27,12 +27,12 @@ Las entidades elegidas para una base de datos pelicula son:
 
 # Diseñar schema
 ## Casos de uso
-Actor: Para actor  me interesa cuando me meta en la pagina web poder ver solo los datos de los actores, sera crear un documento para el solo.
-Director: Nos pasa lo mismo que actor y pondremos un documento propio.
-Personaje: Nos pasa igual por si queremos saber mas informacion sobre ese personaje y tendra un documento propio.
-Productora: Nos pasa igual que los demas pero cogeremos un dato de pelicula que sera los nombres de las peliculas.
-Paises: Este no sera una colleccion propia sino que ira embebido en pelicula, para saber en que ubicaciones se hizo la pelicula.
-Pelicula: En este caso nos gustaria enseñar varios datos relacionado con pelicula que tendremos solo los nombres de los actores, personajes, productora y paises estara embebido por pelicula ya que al acceder a una pelicula querremos enseñar todo lo relacionado de la pelicula.
+**Actor**: Para actor  me interesa cuando me meta en la pagina web poder ver solo los datos de los actores, sera crear un documento para el solo con una lista de peliculas.  
+**Director**: Nos interesa ver sus datos y la participacion de sus peliculas, este tendra una coleecion propia mas la lista de nombres.  
+**Personaje**: Nos interesa saber mas informacion sobre ese personaje y tendra un documento propio.  
+**Productora**: Nos interesa saber que datos tiene la propia productora con una lista de las peliculas en las que ayudo.  
+**Paises**: Este no sera una colleccion propia sino que ira embebido en pelicula, para saber en que ubicaciones se hizo la pelicula.  
+**Pelicula**: En este caso nos gustaria enseñar varios datos relacionado con pelicula que tendremos solo los nombres de los actores, personajes, productora y paises estara embebido por pelicula ya que al acceder a una pelicula querremos enseñar todo lo relacionado de la pelicula.
 ## Validación
 - **Actor** tendra una coleccion sola para acceder a sus datos en algun momento.
 - **Director** tendra una coleccion para acceder a sus datos.
