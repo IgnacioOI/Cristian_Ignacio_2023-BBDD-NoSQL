@@ -41,7 +41,148 @@ Las entidades elegidas para una base de datos pelicula son:
 - **Pelicula** tendra los nombres de los **Actores**, **Personajes**, **Directores**, **Productoras** y **Paises** ira embebido en **Peliculas**.
 > Las colecciones no necesariamente tendran todos los datos de otro sino que tendra los que mas interese de la otra coleccion.
 # Crear docker-compose
+```
+version: "3.8"
+services:
+  mongo:
+    image: mongo:6.0
+    container_name: mongo
+    environment:
+        - MONGO_INITDB_ROOT_USERNAME=root
+        - MONGO_INITDB_ROOT_PASSWORD=password
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./database/db:/data/db
+
+  mongo-express:
+    image: mongo-express
+    container_name: mexpress
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=root
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=password
+      - ME_CONFIG_MONGODB_SERVER=mongo
+      - ME_CONFIG_BASICAUTH_USERNAME=mexpress
+      - ME_CONFIG_BASICAUTH_PASSWORD=mexpress
+    links:
+      - mongo
+    restart: unless-stopped
+    ports:
+      - 8085:8081
+    depends_on:
+      - mongo
+```
+>Viene con una aplicacion para que pueda ver la base de datos que es mongo-express, con un usuario y contraseña 'mexpress'.
 # Crear querys
+## Listar, filtrar y ordenar datos
+```
+use('Peliculas');
+// Fichero script con varias órdenes de selección, por id, filtros por varios criterios, and/or, y aplicando ordenación
+// Selección por ID
+//db.pelicula.find({ _id: ObjectId("646b58f527db1ed47118c60a") });
+
+// Filtro que tengan la misma composicion
+// Pelicula que tenga  titulo Titanic y su genero Drama
+//db.pelicula.find({
+//  titulo: "Titanic",
+//  genero: "Drama"
+//});
+
+// Filtro  utilizando operador OR
+// Si en su genero es Drama o Accion y que su anioProduccion se igual a 2009
+// db.pelicula.find({
+//  $or: [
+//    { genero: "Drama" },
+//    { genero: "Acción" }
+//  ],
+//  anioProduccion: { $gte: 2009 }
+//});
+
+// Aplicar ordenación ascendente por un campo
+//db.pelicula.find().sort({ anioProduccion: 1 });
+
+// Aplicar ordenación descendente por un campo
+//db.pelicula.find().sort({ calificacion: -1 });
+
+// Combinar filtros, operadores lógicos y ordenación
+//Obtendremos peliculas que tenga ciudad Nueva York o que sea del pais Italia y que
+//su anioproduccion  sea mayor de 1900 ordenado por calificacion de manera ascendente
+//Esta consulta se mete dentro de un objeto y busca dentro de el
+db.pelicula.find({
+  $and: [
+    {
+      $or: [
+        { "paisCiudad.ciudad": "Nueva York" },
+        { "paisCiudad.pais": "Italia" }
+      ]
+    },
+    { anioProduccion: { $gt: 1900 } }
+  ]
+}).sort({ calificacion: 1 });
+```
+>Para poder utilizar las querys se tiene que terminar el nombre del archivo con '.mongodb.js' y asi realizar las consultas.
+## Borrar, modificar y insertar datos
+```
+use('Peliculas')
+//Modificacion, insertar y borrar datos
+
+//Modificar
+//Modificar uno en concreto
+// Modifico el nombre del actor  buscado por id unico creado por mongo
+//db.actor.updateOne(
+//    { _id: ObjectId("646b58f527db1ed47118c5f3") },
+//    { $set: { nombre: "Harry Petas" , nacionalidad: "Grifindor"} }
+//  );
+  
+//Modificar varios
+//db.actor.updateMany(
+//    {idActor:"1"},
+//    {$set: {nacionalidad:"Spain"}}
+//);
+
+//Eliminar 
+//Eliminar uno 
+//db.actor.deleteOne(
+//    { "_id": ObjectId("646b58f527db1ed47118c5f3") }
+//    );
+
+// Eliminar varios
+//db.actor.deleteMany(
+//    { "idActor": "11" }
+//    );
+
+
+// Insertar un actor
+//db.actor.insertOne({
+//    "idActor": "000",
+//    "nombre": "Jane Smith",
+//    "dni": "987654321",
+//    "nacionalidad": "USA",
+//    "Peliculas":["Casi 300","Iron man","Blade"]
+//  });
+
+
+// Insertar varios actores 
+//db.actor.insertMany([
+//    {
+//      "idActor": "11",
+//      "nombre": "Flanders",
+//      "dni": "987654321",
+//      "nacionalidad": "caca",
+//      "Peliculas":["Casi 300","Iron man","Blade"]
+//    },
+//    {
+//      "idActor": "99",
+//      "nombre": "Marcello",
+//      "dni": "456789123",
+//      "nacionalidad": "caca",
+//      "Peliculas":["Casi 300","Iron man","Blade"]
+//    }
+//  ]);
+```
+
 # Opcional 
 ## Atlas
+
 
