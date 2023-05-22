@@ -1,0 +1,42 @@
+{
+  "validator": {
+    "$jsonSchema": {
+      "title": "productora",
+      "description": "Guarda datos de las productoras de las películas",
+      "type": "object",
+      "properties": {
+        "nombreProductora": {
+          "description": "Un identificador único de cada productora",
+          "type": "string"
+        },
+        "telefono": {
+          "description": "El teléfono de la productora",
+          "type": "string"
+        },
+        "pais": {
+          "description": "El país de origen de la productora",
+          "type": "string"
+        },
+        "sitioWeb": {
+          "description": "La URL de la página web de la productora",
+          "type": "string"
+        },
+        "fechaCreacion": {
+          "description": "La fecha en la que se creó la productora",
+          "bsonType": "date"
+        },
+        "peliculas": {
+          "description": "Lista de películas de la productora",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "nombreProductora",
+        "telefono"
+      ]
+    }
+  }
+}

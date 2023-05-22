@@ -1,0 +1,37 @@
+{
+  "validator": {
+    "$jsonSchema": {
+      "title": "director",
+      "description": "Guarda datos de directores",
+      "type": "object",
+      "properties": {
+        "idDirector": {
+          "description": "Un identificador único de cada director",
+          "bsonType": "string"
+        },
+        "nombre": {
+          "description": "El nombre del director",
+          "bsonType": "string"
+        },
+        "dni": {
+          "description": "El DNI del director",
+          "bsonType": "string"
+        },
+        "nacionalidad": {
+          "description": "La nacionalidad del director",
+          "bsonType": "string"
+        },
+        "peliculas": {
+          "description": "Lista de películas del director",
+          "bsonType": "array",
+          "items": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "required": [
+        "idDirector"
+      ]
+    }
+  }
+}

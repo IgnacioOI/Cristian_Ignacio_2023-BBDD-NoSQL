@@ -1,0 +1,36 @@
+{
+  "validator": {
+    "$jsonSchema": {
+      "bsonType": "object",
+    
+      "properties": {
+        "idActor": {
+          "bsonType": "string",
+          "description": "Un identificador único de cada actor"
+        },
+        "nombre": {
+          "bsonType": "string",
+          "description": "El nombre del actor"
+        },
+        "dni": {
+          "bsonType": "string",
+          "description": "El DNI del actor"
+        },
+        "nacionalidad": {
+          "bsonType": "string",
+          "description": "La nacionalidad del actor"
+        },
+        "peliculas": {
+          "bsonType": "array",
+          "description": "Lista de películas del actor",
+          "items": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "required": ["idActor"]      
+    }
+    
+  }
+  
+}

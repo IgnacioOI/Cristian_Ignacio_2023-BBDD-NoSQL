@@ -1,0 +1,32 @@
+{
+  "validator": {
+    "$jsonSchema": {
+      "title": "personaje",
+      "description": "Guarda datos de los personajes, parte de datos del actor que lo representa y la pelicula en la que se lleva a cabo",
+      "type": "object",
+      "properties": {
+        "idPersonaje": {
+          "description": "Un identificador único de cada personaje",
+          "type": "string"
+        },
+        "nombrePelicula": {
+          "description": "La ID de la película en la cual actúa",
+          "type": "string"
+        },
+        "nombreActor": {
+          "description": "La ID del actor que interpreta el personaje",
+          "type": "string"
+        },
+        "papel": {
+          "description": "Papel que desempeña el personaje",
+          "type": "string"
+        }
+      },
+      "required": [
+        "idPersonaje",
+        "nombrePelicula",
+        "nombreActor"
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "validator": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "properties": {
+        "idPelicula": {
+          "description": "Un identificador único de cada película",
+          "type": "string"
+        },
+        "nombrePersonaje": {
+          "description": "El nombre de cada personaje que participa en la película",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "nombreActor": {
+          "description": "Nombre de cada personaje de la película, que a su vez nos lleva al actor",
+          "type": "array"
+        },
+        "nombreProductora": {
+          "description": "Nombre de las productoras implicadas en la película",
+          "type": "array"
+        },
+        "titulo": {
+          "description": "Título de cada película",
+          "type": "string"
+        },
+        "genero": {
+          "description": "Géneros de cada película",
+          "type": "array"
+        },
+        "idioma": {
+          "description": "Idiomas de cada película",
+          "type": "array"
+        },
+        "subtitulosEspañol": {
+          "description": "Si es true, contiene subtítulos en español",
+          "type": "boolean"
+        },
+        "anioProduccion": {
+          "description": "Año en que se produjo la película",
+          "type": "number"
+        },
+        "web": {
+          "description": "URL de la película",
+          "type": "string"
+        },
+        "duracion": {
+          "description": "Duración de la película",
+          "type": "number"
+        },
+        "calificacion": {
+          "description": "Valoración de la película",
+          "type": "number"
+        },
+        "fechaEstreno": {
+          "description": "Fecha de estreno de la película en formato ISO 8601 (yyyy-MM-dd)",
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "resumen": {
+          "description": "Un breve resumen de la película",
+          "type": "string"
+        },
+        "paisCiudad": {
+          "description": "Nombre de los países y ciudades donde se ha rodado la película",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "pais": {
+                "description": "Nombre del país donde ha sido rodada la película",
+                "type": "string"
+              },
+              "ciudad": {
+                "description": "Nombre de la ciudad donde ha sido rodada la película",
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "idPelicula",
+        "titulo",
+        "nombreProductora",
+        "nombreActor",
+        "nombrePersonaje",
+        "paisCiudad",
+        "web"
+      ]
+    }
+  }
+}
