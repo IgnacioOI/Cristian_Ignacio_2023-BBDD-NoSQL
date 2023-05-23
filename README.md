@@ -17,7 +17,7 @@
     4. Eliminar documentos
 6. **Opcional**
    1. Crear organizacion en Atlas
-   2. Importar BD
+   2. Importar y exportar base de datos
 # Diseño de la base de datos
 ## Identificar entidades
 Las entidades elegidas para una base de datos pelicula son:    
@@ -229,7 +229,50 @@ use('Peliculas')
 # Opcional 
 ## Crear organizacion en Atlas
 
-## Importar base de datos
+>Para crear una nueva organizacion le damos al logo de ATLAS, nos saldra que estamos en organizacion y le damos a New Project, elegimos el nombre.  
+
+![[PR.PNG]](Imagenes/PR.PNG)
+![[NA.PNG]](Imagenes/NA.PNG)
+
+>Añadimos los usuarios necesario
+
+![[Ania.PNG]](Imagenes/Ania.PNG)
+
+## Importar y exportar base de datos
+
+**Exportar**
+
+>Para exportar datos en mongo compass nos metemos en la bd en la queremos exportar los datos, dentro de una coleccion nos saldra en la parte de la derecha exportar y al darle nos pedira si queremos exportar todo.
 
 
+![[Mdb.PNG]](Imagenes/Mdb.PNG)
+![[mdb2.PNG]](Imagenes/MDB2.PNG)
 
+
+**Vincular bd con atlas**
+>En Database en Data Services, le tenemos que dar a Connect para que nos salgan las opciones que hay y tendremos que elegir Compass o Brujula para conectar a la bd de mongo compass.
+
+![[Atlas.PNG]](Imagenes/Atlas.PNG)
+![[Compass.PNG]](Imagenes/Compass.PNG)
+
+
+>Al darle tenemos que elegir tengo Mongodb, copiamos la cadena con la contraseña.
+![[Atlas2.PNG]](Imagenes/Atlas2.PNG)
+
+>Abrimos una nueva conexion en mongodb y abrimos una nueva conexion y con la cadena copiada la pegamos donde pone URI y conectamos.
+
+![[M5.PNG]](Imagenes/M5.PNG)
+
+**Seguridad**
+
+>Nos metemos en Network Access y ponemos en IP Address esa direccion o otra para quien este en esa red pueda entrar. (La direcicon que esta puesta permite que entre de cualquier lado)
+
+![[cc.PNG]](Imagenes/cc.PNG)
+
+
+**Importar**
+>Para importarlos en otra base de datos, tendremos que crear de nuevo la base de datos y sus colecciones para luego exportar sus datos. Luego nos metetemos en esa coleccion y le damos a ADD DATA y nos saldra los formatos para importarlos que para nuestro caso esta en json.
+
+![[BD3.PNG]](Imagenes/BD3.PNG)
+![[bd4.PNG]](Imagenes/bd4.PNG)
+![[BD5.PNG]](Imagenes/BD5.PNG)
