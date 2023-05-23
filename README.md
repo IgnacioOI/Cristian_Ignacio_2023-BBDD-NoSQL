@@ -15,7 +15,9 @@
     2. Fichero script con varioas ordenes
     3. Modificar documentos
     4. Eliminar documentos
-6. **Atlas**
+6. **Opcional**
+   1. Crear organizacion en Atlas
+   2. Importar BD
 # Diseño de la base de datos
 ## Identificar entidades
 Las entidades elegidas para una base de datos pelicula son:    
@@ -40,6 +42,48 @@ Las entidades elegidas para una base de datos pelicula son:
 - **Productora** sera una coleccion propia por si queremos tener mas informacion sobre el
 - **Pelicula** tendra los nombres de los **Actores**, **Personajes**, **Directores**, **Productoras** y **Paises** ira embebido en **Peliculas**.
 > Las colecciones no necesariamente tendran todos los datos de otro sino que tendra los que mas interese de la otra coleccion.
+## Vincular schema
+La vinculacion hay varias maneras de hacer ya sea a traves del propio mongo compass o otra interfaz o mediante scrips.   
+En este caso se utiliza scrips que se pueden crear la coleccion con su validador, esta se encuentra [[Trabajo/scrips/playground-InsertDatos.mongodb.js]](Trabajo/scrips/playground-InsertDatos.mongodb.js).
+
+```
+//creacion de base de datos
+use("Peliculas");
+// crear sus colecciones con sus schemas
+db.createCollection('actor', {
+  "validator": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "properties": {
+        "idActor": {
+          "bsonType": "string",
+          "description": "Un identificador único de cada actor"
+        },
+        "nombre": {
+          "bsonType": "string",
+          "description": "El nombre del actor"
+        },
+        "dni": {
+          "bsonType": "string",
+          "description": "El DNI del actor"
+        },
+        "nacionalidad": {
+          "bsonType": "string",
+          "description": "La nacionalidad del actor"
+        },
+        "peliculas": {
+          "bsonType": "array",
+          "description": "Lista de películas del actor",
+          "items": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "required": ["idActor"],
+    }
+  }
+});
+```
 # Crear docker-compose
 ```
 version: "3.8"
@@ -183,6 +227,9 @@ use('Peliculas')
 ```
 
 # Opcional 
-## Atlas
+## Crear organizacion en Atlas
+
+## Importar base de datos
+
 
 
