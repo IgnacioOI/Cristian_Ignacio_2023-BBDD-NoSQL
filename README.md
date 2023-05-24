@@ -248,6 +248,10 @@ use('Peliculas')
 ![[Mdb.PNG]](Imagenes/Mdb.PNG)
 ![[mdb2.PNG]](Imagenes/MDB2.PNG)
 
+>Datos exportados estan en una carpeta llamada Peliculas
+
+![[Pru.PNG]](Imagenes\Pru.PNG)
+
 
 **Vincular bd con atlas**
 >En Database en Data Services, le tenemos que dar a Connect para que nos salgan las opciones que hay y tendremos que elegir Compass o Brujula para conectar a la bd de mongo compass.
