@@ -1,0 +1,419 @@
+[{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c607"
+  },
+  "idPelicula": "001",
+  "nombrePersonaje": [
+    "John Doe",
+    "Jane Smith"
+  ],
+  "nombreActor": [
+    "John Actor",
+    "Jane Actress"
+  ],
+  "nombreProductora": [
+    "Warner Bros",
+    "Universal Pictures"
+  ],
+  "titulo": "El Padrino",
+  "genero": [
+    "Drama",
+    "Crimen"
+  ],
+  "idioma": [
+    "Inglés"
+  ],
+  "subtitulosEspañol": true,
+  "anioProduccion": 1972,
+  "web": "http://www.elpadrinomovie.com",
+  "duracion": 175,
+  "calificacion": 9.2,
+  "fechaEstreno": "1972-03-15",
+  "resumen": "La saga de la familia Corleone y el mundo del crimen organizado.",
+  "paisCiudad": [
+    {
+      "pais": "Estados Unidos",
+      "ciudad": "Nueva York"
+    },
+    {
+      "pais": "Italia",
+      "ciudad": "Sicilia"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c608"
+  },
+  "idPelicula": "002",
+  "nombrePersonaje": [
+    "Michael Johnson",
+    "Sarah Thompson"
+  ],
+  "nombreActor": [
+    "Michael Actor",
+    "Sarah Actress"
+  ],
+  "nombreProductora": [
+    "Paramount Pictures",
+    "Columbia Pictures"
+  ],
+  "titulo": "Regreso al Futuro",
+  "genero": [
+    "Aventura",
+    "Ciencia ficción"
+  ],
+  "idioma": [
+    "Inglés"
+  ],
+  "subtitulosEspañol": true,
+  "anioProduccion": 1985,
+  "web": "http://www.backtothefuturemovie.com",
+  "duracion": 116,
+  "calificacion": 8.5,
+  "fechaEstreno": "1985-07-03",
+  "resumen": "Un adolescente viaja en el tiempo en un DeLorean junto con un científico excéntrico.",
+  "paisCiudad": [
+    {
+      "pais": "Estados Unidos",
+      "ciudad": "Hill Valley"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c609"
+  },
+  "idPelicula": "003",
+  "nombrePersonaje": [
+    "Emma Johnson",
+    "David Smith"
+  ],
+  "nombreActor": [
+    "Emma Actress",
+    "David Actor"
+  ],
+  "nombreProductora": [
+    "Warner Bros",
+    "Universal Pictures"
+  ],
+  "titulo": "Titanic",
+  "genero": [
+    "Drama",
+    "Romance"
+  ],
+  "idioma": [
+    "Español"
+  ],
+  "subtitulosEspañol": true,
+  "anioProduccion": 1997,
+  "web": "http://www.titanicmovie.com",
+  "duracion": 194,
+  "calificacion": 7.8,
+  "fechaEstreno": "1997-12-19",
+  "resumen": "La trágica historia de amor entre Rose y Jack a bordo del famoso Titanic.",
+  "paisCiudad": [
+    {
+      "pais": "Estados Unidos",
+      "ciudad": "Los Ángeles"
+    },
+    {
+      "pais": "Reino Unido",
+      "ciudad": "Southampton"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c60a"
+  },
+  "idPelicula": "004",
+  "nombrePersonaje": [
+    "Luke Skywalker",
+    "Princess Leia"
+  ],
+  "nombreActor": [
+    "Mark Hamill",
+    "Carrie Fisher"
+  ],
+  "nombreProductora": [
+    "Lucasfilm Ltd.",
+    "20th Century Studios"
+  ],
+  "titulo": "Star Wars: Episode IV - A New Hope",
+  "genero": [
+    "Ciencia ficción",
+    "Aventura"
+  ],
+  "idioma": [
+    "Inglés"
+  ],
+  "subtitulosEspañol": true,
+  "anioProduccion": 1977,
+  "web": "http://www.starwars.com",
+  "duracion": 121,
+  "calificacion": 8.6,
+  "fechaEstreno": "1977-05-25",
+  "resumen": "La lucha entre el bien y el mal en una galaxia muy, muy lejana.",
+  "paisCiudad": [
+    {
+      "pais": "Estados Unidos",
+      "ciudad": "Los Angeles"
+    },
+    {
+      "pais": "Túnez",
+      "ciudad": "Tataouine"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c60b"
+  },
+  "idPelicula": "005",
+  "nombrePersonaje": [
+    "Harry Potter",
+    "Hermione Granger",
+    "Ron Weasley"
+  ],
+  "nombreActor": [
+    "Daniel Radcliffe",
+    "Emma Watson",
+    "Rupert Grint"
+  ],
+  "nombreProductora": [
+    "Warner Bros. Pictures",
+    "Heyday Films"
+  ],
+  "titulo": "Harry Potter and the Philosopher's Stone",
+  "genero": [
+    "Fantasía",
+    "Aventura"
+  ],
+  "idioma": [
+    "Inglés"
+  ],
+  "subtitulosEspañol": true,
+  "anioProduccion": 2001,
+  "web": "http://www.harrypotter.com",
+  "duracion": 152,
+  "calificacion": 7.6,
+  "fechaEstreno": "2001-11-16",
+  "resumen": "El comienzo de las aventuras de Harry Potter en el mundo de la magia.",
+  "paisCiudad": [
+    {
+      "pais": "Reino Unido",
+      "ciudad": "Londres"
+    },
+    {
+      "pais": "Estados Unidos",
+      "ciudad": "Hollywood"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c60c"
+  },
+  "idPelicula": "006",
+  "nombrePersonaje": [
+    "Tony Stark",
+    "Pepper Potts"
+  ],
+  "nombreActor": [
+    "Robert Downey Jr.",
+    "Gwyneth Paltrow"
+  ],
+  "nombreProductora": [
+    "Marvel Studios",
+    "Paramount Pictures"
+  ],
+  "titulo": "Iron Man",
+  "genero": [
+    "Acción",
+    "Ciencia ficción"
+  ],
+  "idioma": [
+    "Inglés"
+  ],
+  "subtitulosEspañol": true,
+  "anioProduccion": 2008,
+  "web": "http://www.ironmanmovie.com",
+  "duracion": 126,
+  "calificacion": 7.9,
+  "fechaEstreno": "2008-05-02",
+  "resumen": "El origen de Iron Man y la transformación de Tony Stark.",
+  "paisCiudad": [
+    {
+      "pais": "Estados Unidos",
+      "ciudad": "Los Angeles"
+    },
+    {
+      "pais": "China",
+      "ciudad": "Shanghai"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c60d"
+  },
+  "idPelicula": "007",
+  "nombrePersonaje": [
+    "Frodo Baggins",
+    "Gandalf"
+  ],
+  "nombreActor": [
+    "Elijah Wood",
+    "Ian McKellen"
+  ],
+  "nombreProductora": [
+    "New Line Cinema",
+    "WingNut Films"
+  ],
+  "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+  "genero": [
+    "Fantasía",
+    "Aventura"
+  ],
+  "idioma": [
+    "Inglés"
+  ],
+  "subtitulosEspañol": true,
+  "anioProduccion": 2001,
+  "web": "http://www.lordoftherings.com",
+  "duracion": 178,
+  "calificacion": 8.8,
+  "fechaEstreno": "2001-12-19",
+  "resumen": "El inicio del viaje épico de Frodo en la Tierra Media para destruir el Anillo Único.",
+  "paisCiudad": [
+    {
+      "pais": "Nueva Zelanda",
+      "ciudad": "Wellington"
+    },
+    {
+      "pais": "Estados Unidos",
+      "ciudad": "Los Angeles"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c60e"
+  },
+  "idPelicula": "008",
+  "nombrePersonaje": [
+    "Bruce Wayne",
+    "Selina Kyle"
+  ],
+  "nombreActor": [
+    "Christian Bale",
+    "Anne Hathaway"
+  ],
+  "nombreProductora": [
+    "Warner Bros. Pictures",
+    "Legendary Pictures"
+  ],
+  "titulo": "The Dark Knight Rises",
+  "genero": [
+    "Acción",
+    "Drama"
+  ],
+  "idioma": [
+    "Inglés"
+  ],
+  "subtitulosEspañol": true,
+  "anioProduccion": 2012,
+  "web": "http://www.thedarkknightrises.com",
+  "duracion": 165,
+  "calificacion": 8.4,
+  "fechaEstreno": "2012-07-20",
+  "resumen": "El épico final de la trilogía de Batman dirigida por Christopher Nolan.",
+  "paisCiudad": [
+    {
+      "pais": "Estados Unidos",
+      "ciudad": "Nueva York"
+    },
+    {
+      "pais": "Reino Unido",
+      "ciudad": "Londres"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c60f"
+  },
+  "idPelicula": "009",
+  "nombrePersonaje": [
+    "Katniss Everdeen",
+    "Peeta Mellark"
+  ],
+  "nombreActor": [
+    "Jennifer Lawrence",
+    "Josh Hutcherson"
+  ],
+  "nombreProductora": [
+    "Lionsgate",
+    "Color Force"
+  ],
+  "titulo": "The Hunger Games",
+  "genero": [
+    "Ciencia ficción",
+    "Aventura"
+  ],
+  "idioma": [
+    "Inglés"
+  ],
+  "subtitulosEspañol": true,
+  "anioProduccion": 2012,
+  "web": "http://www.thehungergamesmovie.com",
+  "duracion": 142,
+  "calificacion": 7.2,
+  "fechaEstreno": "2012-03-23",
+  "resumen": "La lucha de Katniss por sobrevivir en los Juegos del Hambre.",
+  "paisCiudad": [
+    {
+      "pais": "Estados Unidos",
+      "ciudad": "Los Angeles"
+    },
+    {
+      "pais": "Canadá",
+      "ciudad": "Vancouver"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c610"
+  },
+  "idPelicula": "010",
+  "nombrePersonaje": [
+    "Dominic Toretto",
+    "Brian O'Conner"
+  ],
+  "nombreActor": [
+    "Vin Diesel",
+    "Paul Walker"
+  ],
+  "nombreProductora": [
+    "Universal Pictures",
+    "Original Film"
+  ],
+  "titulo": "The Fast and the Furious",
+  "genero": [
+    "Acción",
+    "Crimen"
+  ],
+  "idioma": [
+    "Inglés"
+  ],
+  "subtitulosEspañol": true,
+  "anioProduccion": 2001,
+  "web": "http://www.fastandfurious.com",
+  "duracion": 106,
+  "calificacion": 6.8,
+  "fechaEstreno": "2001-06-22",
+  "resumen": "Una película llena de acción y carreras ilegales en las calles de Los Ángeles.",
+  "paisCiudad": [
+    {
+      "pais": "Estados Unidos",
+      "ciudad": "Los Angeles"
+    },
+    {
+      "pais": "Japón",
+      "ciudad": "Tokio"
+    }
+  ]
+}]

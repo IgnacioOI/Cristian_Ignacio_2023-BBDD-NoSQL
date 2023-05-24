@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5fd"
+  },
+  "idDirector": "1",
+  "nombre": "Steven Spielberg",
+  "dni": "123456789",
+  "nacionalidad": "Estados Unidos",
+  "peliculas": [
+    "Jurassic Park",
+    "E.T. the Extra-Terrestrial",
+    "Jaws"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5fe"
+  },
+  "idDirector": "2",
+  "nombre": "Christopher Nolan",
+  "dni": "987654321",
+  "nacionalidad": "Reino Unido",
+  "peliculas": [
+    "Inception",
+    "The Dark Knight",
+    "Interstellar"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5ff"
+  },
+  "idDirector": "3",
+  "nombre": "Quentin Tarantino",
+  "dni": "456789123",
+  "nacionalidad": "Estados Unidos",
+  "peliculas": [
+    "Pulp Fiction",
+    "Kill Bill",
+    "Django Unchained"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c600"
+  },
+  "idDirector": "4",
+  "nombre": "Martin Scorsese",
+  "dni": "654321987",
+  "nacionalidad": "Estados Unidos",
+  "peliculas": [
+    "Goodfellas",
+    "Taxi Driver",
+    "The Departed"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c601"
+  },
+  "idDirector": "5",
+  "nombre": "Hayao Miyazaki",
+  "dni": "789123456",
+  "nacionalidad": "Japón",
+  "peliculas": [
+    "Spirited Away",
+    "Princess Mononoke",
+    "My Neighbor Totoro"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c602"
+  },
+  "idDirector": "6",
+  "nombre": "Alfred Hitchcock",
+  "dni": "135792468",
+  "nacionalidad": "Reino Unido",
+  "peliculas": [
+    "Psycho",
+    "Vertigo",
+    "Rear Window"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c603"
+  },
+  "idDirector": "7",
+  "nombre": "Stanley Kubrick",
+  "dni": "246813579",
+  "nacionalidad": "Estados Unidos",
+  "peliculas": [
+    "2001: A Space Odyssey",
+    "The Shining",
+    "A Clockwork Orange"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c604"
+  },
+  "idDirector": "8",
+  "nombre": "Akira Kurosawa",
+  "dni": "864209753",
+  "nacionalidad": "Japón",
+  "peliculas": [
+    "Seven Samurai",
+    "Rashomon",
+    "Yojimbo"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c605"
+  },
+  "idDirector": "9",
+  "nombre": "Pedro Almodóvar",
+  "dni": "975310864",
+  "nacionalidad": "España",
+  "peliculas": [
+    "All About My Mother",
+    "Talk to Her",
+    "Volver"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c606"
+  },
+  "idDirector": "10",
+  "nombre": "David Fincher",
+  "dni": "357924680",
+  "nacionalidad": "Estados Unidos",
+  "peliculas": [
+    "Fight Club",
+    "Gone Girl",
+    "The Social Network"
+  ]
+}]

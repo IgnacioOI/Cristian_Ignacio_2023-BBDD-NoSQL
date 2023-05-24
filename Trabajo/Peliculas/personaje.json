@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c611"
+  },
+  "idPersonaje": "P1",
+  "nombrePelicula": "The Dark Knight",
+  "nombreActor": "Heath Ledger",
+  "papel": "The Joker"
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c612"
+  },
+  "idPersonaje": "P2",
+  "nombrePelicula": "Harry Potter and the Sorcerer's Stone",
+  "nombreActor": "Daniel Radcliffe",
+  "papel": "Harry Potter"
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c613"
+  },
+  "idPersonaje": "P3",
+  "nombrePelicula": "The Avengers",
+  "nombreActor": "Robert Downey Jr.",
+  "papel": "Iron Man"
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c614"
+  },
+  "idPersonaje": "P4",
+  "nombrePelicula": "The Shawshank Redemption",
+  "nombreActor": "Tim Robbins",
+  "papel": "Andy Dufresne"
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c615"
+  },
+  "idPersonaje": "P5",
+  "nombrePelicula": "The Godfather",
+  "nombreActor": "Marlon Brando",
+  "papel": "Don Vito Corleone"
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c616"
+  },
+  "idPersonaje": "P6",
+  "nombrePelicula": "Titanic",
+  "nombreActor": "Leonardo DiCaprio",
+  "papel": "Jack Dawson"
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c617"
+  },
+  "idPersonaje": "P7",
+  "nombrePelicula": "The Dark Knight",
+  "nombreActor": "Heath Ledger",
+  "papel": "Joker"
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c618"
+  },
+  "idPersonaje": "P8",
+  "nombrePelicula": "The Lord of the Rings: The Fellowship of the Ring",
+  "nombreActor": "Elijah Wood",
+  "papel": "Frodo Baggins"
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c619"
+  },
+  "idPersonaje": "P9",
+  "nombrePelicula": "Pulp Fiction",
+  "nombreActor": "John Travolta",
+  "papel": "Vincent Vega"
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c61a"
+  },
+  "idPersonaje": "P10",
+  "nombrePelicula": "The Shawshank Redemption",
+  "nombreActor": "Tim Robbins",
+  "papel": "Andy Dufresne"
+}]

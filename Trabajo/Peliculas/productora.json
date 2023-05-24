@@ -1,0 +1,171 @@
+[{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c61b"
+  },
+  "nombreProductora": "Marvel Studios",
+  "telefono": "123456789",
+  "pais": "Estados Unidos",
+  "sitioWeb": "https://www.marvelstudios.com",
+  "fechaCreacion": {
+    "$date": "2021-05-21T00:00:00.000Z"
+  },
+  "peliculas": [
+    "Iron Man",
+    "Avengers: Endgame",
+    "Black Panther"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c61c"
+  },
+  "nombreProductora": "Nombre de la productora",
+  "telefono": "Número de teléfono",
+  "pais": "País de origen",
+  "sitioWeb": "URL de la página web",
+  "fechaCreacion": {
+    "$date": "2023-05-21T00:00:00.000Z"
+  },
+  "peliculas": [
+    "Película 1",
+    "Película 2",
+    "Película 3"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c61d"
+  },
+  "nombreProductora": "Universal Pictures",
+  "telefono": "123456789",
+  "pais": "Estados Unidos",
+  "sitioWeb": "https://www.universalpictures.com",
+  "fechaCreacion": {
+    "$date": {
+      "$numberLong": "-1501113600000"
+    }
+  },
+  "peliculas": [
+    "Jurassic Park",
+    "Fast & Furious",
+    "Despicable Me"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c61e"
+  },
+  "nombreProductora": "Warner Bros. Pictures",
+  "telefono": "987654321",
+  "pais": "Estados Unidos",
+  "sitioWeb": "https://www.warnerbros.com",
+  "fechaCreacion": {
+    "$date": {
+      "$numberLong": "-1475193600000"
+    }
+  },
+  "peliculas": [
+    "The Dark Knight",
+    "Harry Potter",
+    "The Matrix"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c61f"
+  },
+  "nombreProductora": "Paramount Pictures",
+  "telefono": "555555555",
+  "pais": "Estados Unidos",
+  "sitioWeb": "https://www.paramount.com",
+  "fechaCreacion": {
+    "$date": {
+      "$numberLong": "-1819324800000"
+    }
+  },
+  "peliculas": [
+    "Titanic",
+    "Transformers",
+    "Mission: Impossible"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c620"
+  },
+  "nombreProductora": "Sony Pictures Entertainment",
+  "telefono": "111111111",
+  "pais": "Estados Unidos",
+  "sitioWeb": "https://www.sonypictures.com",
+  "fechaCreacion": {
+    "$date": "1987-11-30T00:00:00.000Z"
+  },
+  "peliculas": [
+    "Spider-Man",
+    "Jumanji",
+    "Men in Black"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c621"
+  },
+  "nombreProductora": "Walt Disney Pictures",
+  "telefono": "999999999",
+  "pais": "Estados Unidos",
+  "sitioWeb": "https://www.waltdisneystudios.com",
+  "fechaCreacion": {
+    "$date": {
+      "$numberLong": "-1458345600000"
+    }
+  },
+  "peliculas": [
+    "The Lion King",
+    "Frozen",
+    "Toy Story"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c622"
+  },
+  "nombreProductora": "20th Century Studios",
+  "telefono": "777777777",
+  "pais": "Estados Unidos",
+  "sitioWeb": "https://www.20thcenturystudios.com",
+  "fechaCreacion": {
+    "$date": {
+      "$numberLong": "-1091577600000"
+    }
+  },
+  "peliculas": [
+    "Deadpool",
+    "Avatar",
+    "X-Men"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c623"
+  },
+  "nombreProductora": "Studio Ghibli",
+  "telefono": "555555555",
+  "pais": "Japón",
+  "sitioWeb": "https://www.ghibli.jp",
+  "fechaCreacion": {
+    "$date": "1985-06-15T00:00:00.000Z"
+  },
+  "peliculas": [
+    "My Neighbor Totoro",
+    "Spirited Away",
+    "Princess Mononoke"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c624"
+  },
+  "nombreProductora": "Pixar Animation Studios",
+  "telefono": "999999999",
+  "pais": "Estados Unidos",
+  "sitioWeb": "https://www.pixar.com",
+  "fechaCreacion": {
+    "$date": "1986-02-03T00:00:00.000Z"
+  },
+  "peliculas": [
+    "Toy Story",
+    "Finding Nemo",
+    "The Incredibles"
+  ]
+}]

@@ -1,0 +1,134 @@
+[{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5f3"
+  },
+  "idActor": "1",
+  "nombre": "Harry Petas",
+  "dni": "123456789",
+  "nacionalidad": "Spain",
+  "peliculas": [
+    "Titanic",
+    "The Shawshank Redemption"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5f4"
+  },
+  "idActor": "2",
+  "nombre": "Jane Smith",
+  "dni": "987654321",
+  "nacionalidad": "UK",
+  "peliculas": [
+    "Inception",
+    "The Godfather"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5f5"
+  },
+  "idActor": "3",
+  "nombre": "Michael Johnson",
+  "dni": "456789123",
+  "nacionalidad": "Canada",
+  "peliculas": [
+    "Pulp Fiction",
+    "Fight Club"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5f6"
+  },
+  "idActor": "4",
+  "nombre": "Laura Davis",
+  "dni": "654321987",
+  "nacionalidad": "Australia",
+  "peliculas": [
+    "The Dark Knight",
+    "The Matrix"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5f7"
+  },
+  "idActor": "5",
+  "nombre": "Robert Johnson",
+  "dni": "789123456",
+  "nacionalidad": "USA",
+  "peliculas": [
+    "Goodfellas",
+    "The Avengers"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5f8"
+  },
+  "idActor": "6",
+  "nombre": "Maria Lopez",
+  "dni": "321987654",
+  "nacionalidad": "Spain",
+  "peliculas": [
+    "Amélie",
+    "Volver"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5f9"
+  },
+  "idActor": "7",
+  "nombre": "Mohammed Ali",
+  "dni": "654789321",
+  "nacionalidad": "Egypt",
+  "peliculas": [
+    "Lawrence of Arabia",
+    "The Mummy"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5fa"
+  },
+  "idActor": "8",
+  "nombre": "Emma Thompson",
+  "dni": "987654321",
+  "nacionalidad": "UK",
+  "peliculas": [
+    "Sense and Sensibility",
+    "Love Actually"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5fb"
+  },
+  "idActor": "9",
+  "nombre": "Jean Dujardin",
+  "dni": "456123789",
+  "nacionalidad": "France",
+  "peliculas": [
+    "The Artist",
+    "The Wolf of Wall Street"
+  ]
+},{
+  "_id": {
+    "$oid": "646b58f527db1ed47118c5fc"
+  },
+  "idActor": "10",
+  "nombre": "Salma Hayek",
+  "dni": "852369741",
+  "nacionalidad": "Mexico",
+  "peliculas": [
+    "Frida",
+    "Desperado"
+  ]
+},{
+  "_id": {
+    "$oid": "646b780fa51f3144a8fe7f07"
+  },
+  "idActor": "99",
+  "nombre": "Marcello",
+  "dni": "456789123",
+  "nacionalidad": "caca",
+  "Peliculas": [
+    "Casi 300",
+    "Iron man",
+    "Blade"
+  ]
+}]
