@@ -250,7 +250,7 @@ use('Peliculas')
 
 >Datos exportados estan en una carpeta llamada Peliculas
 
-![[Pru.PNG]](Imagenes\Pru.PNG)
+![[Pru.PNG]](Imagenes/Pru.PNG)
 
 
 **Vincular bd con atlas**
